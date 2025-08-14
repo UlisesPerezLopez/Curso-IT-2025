@@ -1,0 +1,11 @@
+
+# Teoría básica de Python
+
+- print("Hola") → Imprime texto
+- input("Escribe algo: ") → Recoge texto del usuario
+- int(), float(), str() → Conversión de tipos
+- Comentarios: # Esto es un comentario
+
+Ejemplo:
+nombre = input("¿Cómo te llamas? ")
+print("Hola", nombre)

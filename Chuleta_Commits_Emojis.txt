@@ -1,0 +1,31 @@
+
+CHULETA DE EMOJIS PARA COMMITS EN GIT
+-------------------------------------
+
+Copia y pega los que necesites directamente en tu terminal o editor.
+
+| Tipo de cambio             | Emoji  | Ejemplo de mensaje de commit                            |
+|----------------------------|--------|----------------------------------------------------------|
+| 🎉 Inicio del proyecto     | 🎉     | 🎉 Proyecto inicial subido                               |
+| 📘 Primer commit / planning| 📘     | 📘 Añadido plan de aprendizaje                           |
+| ✨ Nueva funcionalidad     | ✨     | ✨ Añadido sistema de login                              |
+| 🐛 Corrección de errores   | 🐛     | 🐛 Corregido bug en validación de email                 |
+| 🧪 Experimentos            | 🧪     | 🧪 Probando nueva interfaz                               |
+| 📝 Documentación           | 📝     | 📝 Añadida explicación al README                         |
+| 🎨 Mejora de estilo/código | 🎨     | 🎨 Mejorado el formato del código                        |
+| ♻️ Refactorización         | ♻️     | ♻️ Separado código en funciones                         |
+| 🔥 Eliminación             | 🔥     | 🔥 Eliminado archivo innecesario                        |
+| 🚀 Preparación despliegue  | 🚀     | 🚀 Versión lista para producción                        |
+| ✅ Tests                   | ✅     | ✅ Añadidos tests unitarios para login                  |
+| 🔧 Configuración           | 🔧     | 🔧 Configurado archivo .gitignore                       |
+| 🔒 Seguridad               | 🔒     | 🔒 Encriptado de contraseñas añadido                    |
+| 💄 Cambios visuales (UI)   | 💄     | 💄 Estilo mejorado de los botones                       |
+| 📁 Organización de carpetas| 📁     | 📁 Creada estructura de carpetas del proyecto           |
+| 🚧 Trabajo en progreso     | 🚧     | 🚧 WIP: aún no funciona del todo                        |
+| ⬆️  Dependencias actualizadas | ⬆️ | ⬆️ Actualizada versión de requests a 2.31              |
+
+Uso recomendado:
+----------------
+Ejemplo de uso en consola:
+
+git commit -m "✨ Añadido sistema de login con verificación"

@@ -1,0 +1,12 @@
+| Tipo de cambio      | Emoji | Ejemplo de commit                                  |
+| ------------------- | ----- | -------------------------------------------------- |
+| Nueva funcionalidad | `✨`   | `✨ Añadido sistema de login con contraseña`        |
+| Corrección de error | `🐛`  | `🐛 Corregido error al guardar archivos`           |
+| Documentación       | `📝`  | `📝 Actualizado README con instrucciones de uso`   |
+| Estilo              | `🎨`  | `🎨 Mejorado formato del código (indentación)`     |
+| Refactorización     | `♻️`  | `♻️ Reorganizado el código en funciones separadas` |
+| Archivos nuevos     | `📁`  | `📁 Añadida carpeta de imágenes`                   |
+| Archivos eliminados | `🔥`  | `🔥 Eliminado código antiguo e innecesario`        |
+| Primer commit       | `📘`  | `📘 Primer archivo con mi plan de aprendizaje`     |
+| Test (pruebas)      | `✅`   | `✅ Añadido test para la función de login`          |
+| Experimentos        | `🧪`  | `🧪 Prueba inicial con nuevas rutas`               |

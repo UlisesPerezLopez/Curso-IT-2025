@@ -1,0 +1,16 @@
+Guía rápida para usar Git:
+
+1. Inicializa el repositorio:
+   git init
+
+2. Añade archivos al área de preparación:
+   git add nombre_del_archivo
+
+3. Guarda los cambios con un mensaje:
+   git commit -m "Tu mensaje aquí"
+
+4. Verifica el estado del repositorio:
+   git status
+
+5. Ver historial de commits:
+   git log

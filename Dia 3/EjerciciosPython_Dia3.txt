@@ -1,0 +1,10 @@
+
+# Ejercicios Día 3
+
+1. Escribe un programa que pida tu nombre y lo imprima.
+2. Pide dos números al usuario y muestra su suma.
+3. Declara una variable booleana y muéstrala.
+4. Convierte una cadena a número entero y súmalo con otro.
+
+Extra:
+5. Crea un script que pregunte tu edad y calcule en qué año tendrás 100 años.

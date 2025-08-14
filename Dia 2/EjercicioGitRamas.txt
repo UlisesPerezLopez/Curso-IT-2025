@@ -1,0 +1,25 @@
+Ejercicio práctico – Git con ramas
+
+1. Entra en tu carpeta del curso:
+   cd CursoIT_2025
+
+2. Crea una nueva rama llamada "experimento":
+   git checkout -b experimento
+
+3. Crea un archivo llamado experimento.txt con este contenido:
+   Este es un experimento de Git en una rama.
+
+4. Haz commit:
+   git add experimento.txt
+   git commit -m "🧪 Añadido archivo de experimento"
+
+5. Cambia a la rama principal:
+   git checkout main
+
+6. Fusiona la rama:
+   git merge experimento
+
+7. Verifica que el archivo aparezca en la rama principal.
+
+✅ BONUS: Borra la rama si ya no la necesitas:
+   git branch -d experimento
