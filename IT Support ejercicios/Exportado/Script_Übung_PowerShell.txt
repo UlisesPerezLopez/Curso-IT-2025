@@ -1,0 +1,24 @@
+# Definimos el nombre de usuario y la contraseña de forma segura
+$Username = "temporal.test"
+$Password = ConvertTo-SecureString -String "P@ssw0rd2025" -AsPlainText -Force
+
+# 1. Creamos el usuario local
+New-LocalUser -Name $Username -Password $Password
+
+# 2. Añadimos el usuario al grupo 'Usuarios'
+Add-LocalGroupMember -Group "Usuarios" -Member $Username
+
+# 3. Creamos la carpeta donde el usuario tendrá sus archivos
+New-Item -Path "C:\Temporales\$Username" -ItemType Directory
+
+# 4. Obtenemos la lista de permisos (ACL) de la carpeta
+$Acl = Get-Acl -Path "C:\Temporales\$Username"
+
+# 5. Creamos la regla de permiso para el usuario
+$Permission = New-Object System.Security.AccessControl.FileSystemAccessRule($Username, "Modify", "Allow")
+
+# 6. Añadimos la nueva regla a la lista de permisos
+$Acl.AddAccessRule($Permission)
+
+# 7. Aplicamos la lista de permisos modificada a la carpeta
+Set-Acl -Path "C:\Temporales\$Username" -AclObject $Acl
